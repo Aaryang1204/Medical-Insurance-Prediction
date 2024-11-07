@@ -1,13 +1,44 @@
-For building a prediction model, I have used ,
-pandas for data manipulation purposes
-numpy to create arrays or matrices
-pyplot module to provides a simple interface to create various types of line plots, bar charts etc.
-seaborn for statistical data visualization which offers a high-level interface to create attractive and informative statistical graphics.
-scikit-learn for predictive data analysis, preprocessing, and model selection (such as train_test_split, linear regression, metrics)
+# Medical Insurance Prediction Model
 
-Features such as age, bmi, children, region were taken into account.
-Target feature was charges.
+This repository contains a prediction model built to estimate **medical insurance charges** based on several factors using **Linear Regression**.
 
-A model was trained using the Features and Target Features which was then used by Linear Regression to get a prediction model.
+---
 
-The repository features the main code at MedicalInsurance2.ipynb and the csv file insurance.csv taken from kaggle.com(https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download). 
+## Libraries Used
+
+The following libraries were utilized for data manipulation, visualization, and model building:
+
+- **Pandas**: For data manipulation and handling.
+- **NumPy**: To create arrays or matrices for mathematical operations.
+- **Matplotlib (pyplot)**: Provides a simple interface to create various types of line plots, bar charts, etc.
+- **Seaborn**: Used for statistical data visualization, offering a high-level interface to create attractive and informative graphics.
+- **Scikit-Learn**: Essential for predictive data analysis, preprocessing, and model selection (functions like `train_test_split`, `LinearRegression`, and `metrics`).
+
+---
+
+## Features and Target Variable
+
+The following features were considered:
+
+- **Age**
+- **BMI**
+- **Children**
+- **Region**
+
+The **target feature** was **charges**.
+
+A model was trained using the above features as inputs, with the goal of predicting medical insurance charges.
+
+---
+
+## Model Training
+
+The model was trained with **Linear Regression** to establish a predictive relationship between the selected features and the target variable, `charges`.
+
+---
+
+## Repository Structure
+
+- The main code can be found in **MedicalInsurance2.ipynb**
+- **insurance.csv**: The dataset used for training, sourced from Kaggle ([download link](https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download)).
+
